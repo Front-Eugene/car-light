@@ -1,0 +1,275 @@
+/* my_presets *//* michael-k90 *//* endzeit_____ */
+.m1-form input.field:focus::-webkit-input-placeholder {opacity:0;}
+.m1-form input.field:focus::-moz-placeholder          {opacity:0;}
+.m1-form input.field:focus:-moz-placeholder           {opacity:0;}
+.m1-form input.field:focus:-ms-input-placeholder      {opacity:0;}
+.m1-form input.field::-webkit-input-placeholder {color: #222; opacity: 1;}
+.m1-form input.field:-moz-placeholder {color: #222; opacity: 1;}
+.m1-form input.field::-moz-placeholder {color: #222; opacity: 1;}
+.m1-form input.field:-ms-input-placeholder {color: #222; opacity: 1;}
+.hidden{display: none;}
+.left{float: left;}
+.right{float: right;}
+.center{text-align: center;}
+.just {
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+p.par {
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    padding: 0 20px 20px;
+}
+.img {
+    display: block;
+    margin: 0 auto 20px;
+}
+.clearfix:after, .char li:after, .ship li:after {content: '';display: block;clear: both;}
+.clear{clear: both;height: 0px;}
+.ulfix {font-size: 0;}
+.ulfix li {font-size: 16px;}
+/* END my_presets */
+
+h1,h2,h3,h4,h5,h6{font-family: 'Proxima Nova', Helvetica, sans-serif; font-weight: 700; text-transform: uppercase;line-height: 1.2em;}
+b,strong{font-weight: 700;}
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px auto;
+    font-family: 'Proxima Nova', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #222;
+    background: #f1f1f1;
+}
+.wrap {
+    width: 480px;
+    padding: 0;
+    margin: 0 auto;
+    background: #fff;
+}
+section {
+    padding: 30px 0;
+}
+section, footer {
+	width: 100%;
+    position: relative;
+}
+.wrap:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+section:after, footer:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.m1-form input.field, .form-control{
+    position: relative;
+    display: block;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 100%;
+    height: 76px;
+    line-height: 76px;
+    margin: 0 auto 10px;
+    padding: 0 20px;
+    background:#fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Proxima Nova', Helvetica, sans-serif;
+    font-weight: 400;
+    color: #222;
+    -webkit-transition: all 0.2s;
+    -moz-transition:    all 0.2s;
+    -o-transition:      all 0.2s;
+    -ms-transition:     all 0.2s;
+    transition:         all 0.2s;
+}
+.button-m{
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 380px;
+    height: 76px;
+    line-height: 76px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    font-family: 'Proxima Nova', Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background: #f97b62; 
+    -webkit-transition: all 0.2s;
+    -moz-transition:    all 0.2s;
+    -o-transition:      all 0.2s;
+    -ms-transition:     all 0.2s;
+    transition:         all 0.2s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.button-m:hover{
+    
+}
+.button-m:active{
+   
+    top:-1px;
+}
+.m1-form {
+    width: 380px;
+    margin: 0 auto;
+}
+.m1-form .button-m{
+    width: 100%;
+}
+h2.title {
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+h2.title > span {
+    display: block;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.tlt:after {
+    content:'';
+    display: block;
+    width: 198px;
+    height: 2px;
+    background: #dadada;
+    margin: 20px auto 0;
+}
+.price {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.old-cost {
+    float: left;
+}
+.old-cost p {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.old-cost p span {
+    text-decoration: line-through;
+}
+.old-cost > span, .new-cost > span {
+    font-size: 16px;
+}
+.new-cost {
+    float: right;
+}
+.new-cost p {
+    font-size: 48px;
+    line-height: 40px;
+}
+.new-cost, .old-cost  {
+    width: 50%;
+    height: 75px;
+}
+.old-cost p small, .new-cost p small {
+    font-size: .7em;
+}
+
+/*Таймер*/
+.countbox:before {
+    content: 'До конца акции осталось:';
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color:#fff;
+    font-weight: 300;
+    margin: 0 auto 20px;
+    width: 270px;
+    height: 50px;
+    background: #252629;
+    line-height: 50px;
+    border-radius: 0 0 10px 10px;
+}
+.countbox {
+    height: 140px;
+    width: 100%;
+    padding-left: 0;
+    margin: 0 auto;
+}
+.countbox > div:last-child {
+    margin: 0;    
+}
+.countbox > div:first-child {
+    margin-left: 65px;    
+}
+.countbox .countbox-num {
+    float: left;
+    height: 50px;
+    margin-right: 21px;
+}
+.countbox-hours, .countbox-mins, .countbox-secs {
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 50px;
+    display: inline-block;
+}
+.countbox-hours-text, .countbox-mins-text, .countbox-secs-text {
+    font-size: 14px;
+    text-align: center;
+    text-transform: none;
+    display: inline-block;
+    position: relative;
+    top:-10px;
+    margin-left: 10px;
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 46px;
+    height: 46px;
+    padding: 0;    
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    background:#f97b62 url(../images/arrow.png) no-repeat center center;
+    z-index: 3;
+    margin-top: -23px;
+}
+.slick-prev{
+    left: 13px;
+}
+.slick-next{
+    right: 13px;
+    -moz-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+transform: rotate(180deg);
+}
